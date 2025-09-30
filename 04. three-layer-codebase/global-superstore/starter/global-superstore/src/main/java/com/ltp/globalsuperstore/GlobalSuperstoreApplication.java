@@ -1,14 +1,13 @@
-package com.workbook.workbook;
+package com.ltp.globalsuperstore;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WorkbookApplication {
+public class GlobalSuperstoreApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Hello");
-		SpringApplication.run(WorkbookApplication.class, args);
+		SpringApplication.run(GlobalSuperstoreApplication.class, args);
 	}
 
 }
